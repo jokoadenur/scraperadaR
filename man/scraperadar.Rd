@@ -1,4 +1,4 @@
-\title{Scrape Economic News from Radar Kediri Jawa Pos Website}
+\title{Scrape Economic News from Radar Jawa Pos Website}
 \name{scraperadar}
 \alias{scraperadar}
 \usage{
