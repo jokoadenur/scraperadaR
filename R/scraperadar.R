@@ -302,7 +302,7 @@ scraperadar <- function(wilayahradar, x) {
       )
     names(radartuban) <- c("judul", "isiberita", "link", "tanggal", "sentimen", "lokasi", "estimasi lapus")
     radarkediri <- radartuban
-    print(radarkediri)
+    View(radarkediri)
     write.xlsx(radarkediri, paste0("radarkediri_", Sys.Date(),".xlsx"))
     return(radartuban)
 
@@ -559,7 +559,7 @@ scraperadar <- function(wilayahradar, x) {
       )
     names(radartuban) <- c("judul", "isiberita", "link", "tanggal", "sentimen", "lokasi", "estimasi lapus")
     radarsurabaya <- radartuban
-    print(radarsurabaya)
+    View(radarsurabaya)
     write.xlsx(radarsurabaya, paste0("radarsurabaya_",Sys.Date(),".xlsx" ))
     return(radartuban)
   } else if (wilayahradar == "madura") {
@@ -813,7 +813,7 @@ scraperadar <- function(wilayahradar, x) {
     names(radartuban) <- c("judul", "isiberita", "link", "tanggal", "sentimen", "lokasi", "estimasi lapus")
 
     radarmadura <- radartuban
-    print(radarmadura)
+    View(radarmadura)
     write.xlsx(radarmadura, paste0("radarmadura_",Sys.Date(),".xlsx" ))
   } else if(wilayahradar == "semarang"){
 
@@ -1073,7 +1073,7 @@ scraperadar <- function(wilayahradar, x) {
     names(radartuban) <- c("judul", "isiberita", "link", "tanggal", "sentimen", "lokasi", "estimasi lapus")
 
     radarsemarang <- radartuban
-    print(radarsemarang)
+    View(radarsemarang)
     write.xlsx(radarsemarang, paste0("radarsemarang_", Sys.Date(),".xlsx"))
     return(radartuban)
   } else if(wilayahradar == "tulungagung"){
@@ -1343,7 +1343,7 @@ scraperadar <- function(wilayahradar, x) {
     names(radartuban) <- c("judul", "isiberita", "link", "tanggal", "sentimen", "lokasi", "estimasi lapus")
 
     radartulungagung <- radartuban
-    print(radartulungagung)
+    View(radartulungagung)
     write.xlsx(radartulungagung, paste0("radartulungagung_", Sys.Date(),".xlsx"))
     return(radartuban)
   } else if(wilayahradar == "tuban"){
